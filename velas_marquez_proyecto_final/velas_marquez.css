@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+header{
+    background-image: url(images/fondo.png);    
+}
+
+
+nav{
+    background-color: black;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+
+nav ul{
+    
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    
+    display:inline-block;
+
+}
+
+
+nav ul li a {
+    color: white;
+    display: block;
+    padding: 20px 60px;
+    text-decoration: none;    
+}
+
+nav ul li a:hover{
+    background-color: rgb(41, 11, 214);
+}
+nav ul li a:active{
+    background-color: rgb(40, 116, 230);
+}
+main {
+    
+background-image: url(images/fondo.png);    
+}
+
+.lavanda {
+    width: 560px;;
+    height: 400px;
+}
+
+footer{
+
+    
+    height: 200px;
+}
+
+
+
+
