@@ -4,59 +4,52 @@
     box-sizing: border-box;
     color: white;
 }
-header{
-    background-image: url(images/fondo.png);    
+body{
+    background-image: url(images/fondo.png);  
 }
-
-
-nav{
+.nav{
     background-color: black;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
 }
-
-nav ul{
-    
+.navList{
     list-style: none;
     margin: 0;
     padding: 0;
     text-align: center;
 }
-
-nav ul li {
-    
+.navItem{
     display:inline-block;
-
 }
-
-
-nav ul li a {
+.navLink {
     color: white;
     display: block;
     padding: 20px 60px;
     text-decoration: none;    
 }
-
-nav ul li a:hover{
+.navLink:hover{
     background-color: rgb(41, 11, 214);
 }
-nav ul li a:active{
+.navLink:active{
     background-color: rgb(40, 116, 230);
 }
-main {
-    
-background-image: url(images/fondo.png);    
+.textImg{ 
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;  
+    letter-spacing: 2px;
+    word-spacing: 6px;
+    font-size: 14px; 
+    line-height: 20px; 
 }
-
 .lavanda {
     width: 560px;;
     height: 400px;
 }
-
-footer{
-
-    
-    height: 200px;
+.copyright {
+	font-family:Verdana, Geneva, sans-serif;
 }
+
+
+
 
 
 
