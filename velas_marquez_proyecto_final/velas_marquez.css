@@ -32,6 +32,16 @@ body{
 .navLink:active{
     background-color: rgb(40, 116, 230);
 }
+.logo{
+    width: 500px;
+}
+.mCarrousel{
+    display: flex;
+    flex-wrap:wrap;
+}
+.carrousel{
+    width: 560px;
+}
 .textImg{ 
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     text-align: justify;  
@@ -44,11 +54,12 @@ body{
     display: flex;
     flex-wrap:wrap;
 }
-.mGaleryItem{
-    
-}
+
 .mGaleryImg{
     width: 560px;   
+}
+.logoVideo{
+    width: 560px;
 }
 .lavanda{
     width: 560px;;
