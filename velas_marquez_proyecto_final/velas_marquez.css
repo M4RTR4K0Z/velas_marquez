@@ -40,7 +40,17 @@ body{
     font-size: 14px; 
     line-height: 20px; 
 }
-.lavanda {
+.mGaleryList{
+    display: flex;
+    flex-wrap:wrap;
+}
+.mGaleryItem{
+    
+}
+.mGaleryImg{
+    width: 560px;   
+}
+.lavanda{
     width: 560px;;
     height: 400px;
 }
