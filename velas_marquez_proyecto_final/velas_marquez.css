@@ -5,11 +5,21 @@
     color: white;
 }
 body{
-    background-image: url(images/fondo.png);  
+    background-image: url(images/fondo.png);    
+}
+.header{
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    background-color: black;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    width: 100%;
 }
 .nav{
-    background-color: black;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+   
 }
 .navList{
     list-style: none;
@@ -31,6 +41,9 @@ body{
 }
 .navLink:active{
     background-color: rgb(40, 116, 230);
+}
+main{
+    padding: 59px;
 }
 .logo{
     width: 500px;
