@@ -51,6 +51,8 @@ main{
 .mCarrousel{
     display: flex;
     flex-wrap:wrap-reverse;
+    justify-content: center;
+    align-items: center;
 }
 .mCarrouselList{
     list-style: none;
@@ -71,6 +73,8 @@ main{
 .mGaleryList{
     display: flex;
     flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
 }
 .mGaleryItem{
     list-style: none;
