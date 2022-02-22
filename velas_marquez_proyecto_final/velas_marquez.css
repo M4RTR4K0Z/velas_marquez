@@ -88,6 +88,38 @@ main{
     width: 560px;;
     height: 400px;
 }
+.form{
+    width: 550px;
+    margin: auto;
+    background: rgba(0, 0, 0,0.4);
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 7px;
+}
+.h2Contact{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+
+}
+.formNote{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 1rem;
+    
+}
+.formName, .formMail, .formPhone, .formText{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 7px;
+    width: 100%;
+}
+#send{
+    background: rgb(11, 15, 216);
+    padding:10px;
+    width: 100%;
+}
+#send:hover{
+    background: rgb(37, 37, 255);
+}
 .copyright {
 	font-family:Verdana, Geneva, sans-serif;
 }
