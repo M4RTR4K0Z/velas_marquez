@@ -71,7 +71,11 @@ main{
 }
 .mGaleryList{
     display: grid;
-    grid-template-columns: 33% 33% 33%;
+    grid-template-areas: 
+       '1 2 3'
+       '4 5 6'
+       '7 8 9'
+       '10 11 12';
     align-items: center;
 }
 .mGaleryItem{
@@ -80,8 +84,14 @@ main{
     padding: 3px;
 }
 
-.mGaleryImg{
+.mGaleryImg1, .mGaleryImg2, .mGaleryImg3,
+.mGaleryImg4, .mGaleryImg5, .mGaleryImg6,
+.mGaleryImg7, .mGaleryImg8, .mGaleryImg9,
+.mGaleryImg10{
     width: 100%;   
+}
+.mGaleryImg10{
+    grid-area: 11;
 }
 .logoVideo{
     width: 560px;
