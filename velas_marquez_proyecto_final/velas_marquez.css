@@ -44,14 +44,26 @@ body{
 main{
     padding: 59px;
 }
+.mIndex{
+    display: grid;
+    grid-template-areas: "logo texto1 texto1"
+                         "imagen imagen video"
+                         "imagen imagen texto2";
+    grid-template-rows: 1fr 2fr 2fr;
+    grid-template-columns: 1fr 2fr 1fr;
+}
 .logo{
-    width: 500px;
+    grid-area: logo;
+    width: 100%;
+}
+.textIndex{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    grid-area: texto1;
 }
 .mCarrousel{
-
+    grid-area: imagen;
     display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    align-items: center;
+    grid-template-columns: 33% 33% 33% ;
 }
 .mCarrouselList{
     list-style: none;
@@ -61,7 +73,8 @@ main{
 .carrousel{
     width: 100%;
 }
-.textImg{ 
+.textImg{
+    grid-area: texto2; 
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     text-align: justify;  
     letter-spacing: 2px;
@@ -94,7 +107,8 @@ main{
     grid-area: 11;
 }
 .logoVideo{
-    width: 560px;
+    grid-area: video;
+    width: 100%;
 }
 .lavanda{
     width: 560px;;
